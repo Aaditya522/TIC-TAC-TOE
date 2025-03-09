@@ -51,37 +51,35 @@ tic_tac_toe:
 Contains the game grid and methods to manage gameplay.
 
 # Key Functions
--> void tictactoe(): Displays the initial tic-tac-toe grid.
+* void tictactoe(): Displays the initial tic-tac-toe grid.
 
--> void print(): Prints the updated grid after each turn and checks for a tie.
+* void print(): Prints the updated grid after each turn and checks for a tie.
 
--> void set_values(char input, char value): Updates the grid based on player input.
+* void set_values(char input, char value): Updates the grid based on player input.
 
--> bool check(): Evaluates the current state of the grid to determine a winner or tie.
+* bool check(): Evaluates the current state of the grid to determine a winner or tie.
 
-# Example Gameplay
+# Example Gameplay:
 Upon execution, the program displays the initial grid, prompts players for their moves, and updates the grid accordingly. Below is an example of gameplay in action:
 
--> plaintext:
 
-###############################
-          TIC-TAC-TOE         
-###############################
+############################### TIC-TAC-TOE ###############################
+
 
 
 1   |  2  |   3
-----|-----|----
+
 4   |  5  |   6
-----|-----|----
+
 7   |  8  |   9
 
 Player X
 Provide place: 5
 
 1   |  2  |   3
-----|-----|----
+
 4   |  X  |   6
-----|-----|----
+
 7   |  8  |   9
 
 # Future Enhancements:
