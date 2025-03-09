@@ -67,6 +67,8 @@ Upon execution, the program displays the initial grid, prompts players for their
 ###############################
           TIC-TAC-TOE         
 ###############################
+
+
 1   |  2  |   3
 ----|-----|----
 4   |  5  |   6
