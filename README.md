@@ -68,18 +68,18 @@ Upon execution, the program displays the initial grid, prompts players for their
 
 
 1   |  2  |   3
----------------
+----|-----|----
 4   |  5  |   6
----------------
+----|-----|----
 7   |  8  |   9
 
 Player X
 Provide place: 5
 
 1   |  2  |   3
----------------
+----|-----|----
 4   |  X  |   6
----------------
+----|-----|----
 7   |  8  |   9
 
 # Future Enhancements:
